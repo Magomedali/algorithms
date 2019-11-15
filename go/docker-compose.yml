@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  goland:
+    image: golang:1.12-alpine
+    container_name: goland
+    tty: true
+    volumes:
+      - ./src:/var/www/src
