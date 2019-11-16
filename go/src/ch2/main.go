@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import "go-packages/gohub/go_operations"
 
 func main() {
 
@@ -10,6 +11,7 @@ func main() {
 	displayFloatType()
 	displayString()
 	displayBolean()
+	go_operations.IntOperations()
 }
 
 func displayIntTypes() [11]string {
